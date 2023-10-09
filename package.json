@@ -1,7 +1,7 @@
 {
-  "name": "mv3-parcel-webext-template",
+  "name": "disney-plus-ratings",
   "version": "0.0.0",
-  "description": "Chrome Extension boilerplate for manifest v3. With React.",
+  "description": "disney-plus-ratings extension",
   "scripts": {
     "start": "parcel watch src/manifest.json --host localhost",
     "prebuild": "rimraf dist",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/onikienko/mv3-parcel-webext-template.git"
+    "url": "git+https://github.com/onikienko/disney-plus-ratings-extension.git"
   },
   "author": "Mykhailo Onikiienko <michael.onikienko@gmail.com> (https://github.com/onikienko)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/onikienko/mv3-parcel-webext-template/issues"
+    "url": "https://github.com/onikienko/disney-plus-ratings-extension/issues"
   },
-  "homepage": "https://github.com/onikienko/mv3-parcel-webext-template#readme",
+  "homepage": "https://github.com/onikienko/disney-plus-ratings-extension#readme",
   "devDependencies": {
     "@parcel/config-webextension": "^2.9.3",
     "@types/chrome": "^0.0.246",
