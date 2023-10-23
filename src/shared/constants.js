@@ -1,0 +1,1 @@
+export const CMD_GET_MOVIE_INFO = 'CMD_GET_MOVIE_INFO';

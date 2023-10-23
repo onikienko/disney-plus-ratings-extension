@@ -3,6 +3,7 @@
   "name": "Disney Plus Ratings",
   "description": "Adds IMDB rating to Disney +",
   "version": "0.0.0",
+  "minimum_chrome_version": "102",
   "icons": {
     "16": "images/icon256.png?width=16",
     "24": "images/icon256.png?width=24",
@@ -16,8 +17,15 @@
     "service_worker": "background/index.js",
     "type": "module"
   },
-  "action": {
-    "default_popup": "popup/index.html"
-  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.disneyplus.com/*"
+      ],
+      "js": [
+        "content/disney.js"
+      ]
+    }
+  ],
   "permissions": []
 }
