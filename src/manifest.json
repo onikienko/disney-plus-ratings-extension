@@ -5,13 +5,12 @@
   "version": "0.0.0",
   "minimum_chrome_version": "102",
   "icons": {
-    "16": "images/icon256.png?width=16",
-    "24": "images/icon256.png?width=24",
-    "32": "images/icon256.png?width=32",
-    "48": "images/icon256.png?width=48",
-    "64": "images/icon256.png?width=64",
-    "128": "images/icon256.png?width=128",
-    "256": "images/icon256.png"
+    "16": "images/icon128.png?width=16",
+    "24": "images/icon128.png?width=24",
+    "32": "images/icon128.png?width=32",
+    "48": "images/icon128.png?width=48",
+    "64": "images/icon128.png?width=64",
+    "128": "images/icon128.png?width=128"
   },
   "background": {
     "service_worker": "background/index.js",
