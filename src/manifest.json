@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Disney Plus Ratings",
-  "description": "Adds IMDB rating to Disney +",
+  "description": "Adds IMDb rating to Disney +",
   "version": "0.0.0",
   "minimum_chrome_version": "102",
   "icons": {
