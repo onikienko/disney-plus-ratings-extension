@@ -12,6 +12,25 @@ module.exports = {
         'tokenRef': 'GITHUB_TOKEN',
         'assets': ['releases/*-v${version}.zip'],
     },
+    'plugins': {
+        '@release-it/conventional-changelog': {
+            'infile': 'CHANGELOG.md',
+            'ignoreRecommendedBump': true,
+            'preset': {
+                'name': 'conventionalcommits',
+                'types': [
+                    {
+                        'type': 'feat',
+                        'section': 'Features',
+                    },
+                    {
+                        'type': 'fix',
+                        'section': 'Bug Fixes',
+                    },
+                ],
+            },
+        },
+    },
     'npm': {
         'publish': false,
     },
