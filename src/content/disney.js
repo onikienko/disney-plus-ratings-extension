@@ -42,4 +42,3 @@ const mutationHandler = (mutationList) => {
 
 const observer = new MutationObserver(mutationHandler);
 observer.observe(document.getElementById('webAppRoot'), {childList: true, subtree: true});
-
