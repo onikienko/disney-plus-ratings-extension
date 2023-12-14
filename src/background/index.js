@@ -3,8 +3,8 @@ import {getMovieName} from './disneyScrapper';
 import {getImdbDetails} from './imdbAPI';
 
 
-const handleIMDB = async ({startYear, pageUrl}) => {
-    const movieName = await getMovieName(pageUrl);
+const handleIMDB = async ({startYear, pageUrl, movieName}) => {
+    movieName = movieName || await getMovieName(pageUrl);
     if (!movieName) return null;
     const imdbDetails = await getImdbDetails({movieName, startYear});
     return imdbDetails ?? null;
