@@ -11,12 +11,14 @@ export const arrayShuffle = (array) => {
     }
     return array;
 };
+
 export const handleFetchRespErrors = (response) => {
     if (!response.ok) {
         throw Error(`${response.status}: ${response.statusText}`);
     }
     return response;
 };
+
 export const fetchUrlsWithFallback = async (baseUrls, suffix = '', msec = 5000) => {
     for (const url of baseUrls) {
         try {
@@ -26,4 +28,8 @@ export const fetchUrlsWithFallback = async (baseUrls, suffix = '', msec = 5000) 
         }
     }
     throw new Error('No working urls');
+};
+
+export const getMovieNameFromDisneyPageTitle = (title) => {
+    return title.match(/^(Watch)?(.+?) \|/)?.[2].trim();
 };
