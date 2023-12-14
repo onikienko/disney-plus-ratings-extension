@@ -1,8 +1,14 @@
 import {CMD_GET_MOVIE_INFO} from '../shared/constants';
+import {getMovieNameFromDisneyPageTitle} from '../shared/utils';
 import {cleanupCache, getFromCache, putToCache} from './cache';
 import {injectRatio} from './injector';
 import {getDisneyId, getStartYear} from './scrapper';
 
+
+const getMovieName = () => {
+    const lang = document.documentElement.lang;
+    return lang === 'en' || lang.startsWith('en-') ? getMovieNameFromDisneyPageTitle(document.title) : null;
+};
 
 const handleMovie = async ({startYear, disneyId}) => {
     const cached = await getFromCache(disneyId);
@@ -15,6 +21,7 @@ const handleMovie = async ({startYear, disneyId}) => {
         data: {
             startYear,
             pageUrl: location.href,
+            movieName: getMovieName(),
         },
     });
     if (res) {
@@ -23,6 +30,7 @@ const handleMovie = async ({startYear, disneyId}) => {
         cleanupCache().catch(error => console.log('Error cleaning up cache', error));
     }
 };
+
 const mutationHandler = (mutationList) => {
     for (const mutation of mutationList) {
         if (
