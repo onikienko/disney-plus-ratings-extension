@@ -2,7 +2,6 @@ import {arrayShuffle, fetchUrlsWithFallback} from '../shared/utils';
 
 
 const IMDB_API_MIRRORS_LIST = [
-    'https://imdb-api.projects.thetuhin.com',
     'https://imdb-api.0-8.pp.ua',
     'https://imdb-api.cap.cmd.pp.ua',
 ];
