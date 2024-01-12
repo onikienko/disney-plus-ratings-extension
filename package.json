@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/onikienko/disney-plus-ratings-extension#readme",
   "devDependencies": {
-    "@parcel/config-webextension": "^2.10.3",
+    "@parcel/config-webextension": "^2.11.0",
     "@release-it/conventional-changelog": "^8.0.1",
     "@types/chrome": "^0.0.256",
     "@types/fs-extra": "^11.0.4",
@@ -31,7 +31,7 @@
     "fs-extra": "^11.2.0",
     "glob": "^10.3.10",
     "opener": "^1.5.2",
-    "parcel": "^2.10.3",
+    "parcel": "^2.11.0",
     "process": "^0.11.10",
     "release-it": "^17.0.1",
     "rimraf": "^5.0.5",
