@@ -1,5 +1,12 @@
 
 
+## [1.0.2](https://github.com/onikienko/disney-plus-ratings-extension/compare/v1.0.1...v1.0.2) (2024-01-12)
+
+
+### Bug Fixes
+
+* update according to markup changes ([cce28ce](https://github.com/onikienko/disney-plus-ratings-extension/commit/cce28ce54ff9fb70dedb056d2d79129aa8c5836c))
+
 ## [1.0.1](https://github.com/onikienko/disney-plus-ratings-extension/compare/v1.0.0...v1.0.1) (2023-12-15)
 
 

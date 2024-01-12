@@ -1,6 +1,6 @@
 {
   "name": "disney-plus-ratings",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "disney-plus-ratings extension",
   "scripts": {
     "start": "parcel watch src/manifest.json --host localhost",
