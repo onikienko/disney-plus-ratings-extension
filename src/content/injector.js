@@ -2,7 +2,7 @@ import './disney.css';
 
 
 export const injectRatio = (imdbDetails) => {
-    const parent = document.querySelector('#details_index > div > article > div.sc-hTQSVH.cUDiDZ > div > div:nth-child(1) > p > div > div.sc-fyjYeE.eLawYF');
+    const parent = document.querySelector('#details_index > div > article > div > div > div:nth-child(1) > p > div > div');
     if (!parent) return;
     const container = document.createElement('div');
     container.id = 'ext-details-container';
