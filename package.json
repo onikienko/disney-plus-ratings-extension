@@ -39,6 +39,6 @@
     "zip-lib": "^1.0.3"
   },
   "dependencies": {
-    "dexie": "^3.2.5"
+    "dexie": "^3.2.6"
   }
 }
