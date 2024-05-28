@@ -1,5 +1,7 @@
 # Disney Plus Rating Browser Extension
 
+**I do not use Disney+ atm, so I can't keep this extension updated. PRs with fixes are welcome.**
+
 Extension for disneyplus.com users. Adds IMDb rating to Disney Plus Movies and Series.
 
 Install from [Chrome Web Store](https://chromewebstore.google.com/detail/disney-plus-ratings/eoajkdpoodoacmoomlnehmjmlmebkfeh)
