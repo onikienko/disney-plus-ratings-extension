@@ -36,7 +36,7 @@
     "release-it": "^17.10.0",
     "rimraf": "^6.0.1",
     "sharp": "^0.31.3",
-    "zip-lib": "^1.0.4"
+    "zip-lib": "^1.0.5"
   },
   "dependencies": {
     "dexie": "^4.0.9"
